@@ -4,10 +4,10 @@ namespace Clientes
     {
         private string nombre;
         private string direccion;
-        private long telefono;
+        private string telefono;
         private string datosReferenciaDireccion;
 
-        public Cliente(string nombre, string direccion, long telefono, string datosReferenciaDireccion)
+        public Cliente(string nombre, string direccion, string telefono, string datosReferenciaDireccion)
         {
         this.nombre = nombre;
         this.direccion = direccion;
@@ -16,7 +16,7 @@ namespace Clientes
         }
         public string Nombre { get => nombre;}
         public string Direccion { get => direccion;}
-        public long Telefono { get => telefono;}
+        public string Telefono { get => telefono;}
         public string DatosReferenciaDireccion { get => datosReferenciaDireccion;}
 
     }
